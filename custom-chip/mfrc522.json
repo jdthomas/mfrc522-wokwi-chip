@@ -1,0 +1,30 @@
+{
+    "name": "RFID-RC522",
+    "author": "jeffdthomas",
+    "pins": [
+        "SDA",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "RST",
+        "IRQ",
+        "CS",
+        "GND",
+        "VCC",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "controls": [
+        {
+            "id": "cardPresent",
+            "label": "Card Present",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 1
+        }
+    ]
+}

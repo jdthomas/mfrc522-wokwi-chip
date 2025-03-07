@@ -1,0 +1,11 @@
+[wokwi]
+version = 1
+gdbServerPort = 3333
+# elf = "rust/target/xtensa-esp32s3-espidf/release/mfrc522_test"
+# firmware = "rust/target/xtensa-esp32s3-espidf/release/mfrc522_test"
+elf = "cpp/build/esp32.esp32.esp32s3/cpp.ino.bin"
+firmware = "cpp/build/esp32.esp32.esp32s3/cpp.ino.elf"
+
+[[chip]]
+name = 'mfrc522'
+binary = '../custom-chip/dist/mfrc522.wasm'

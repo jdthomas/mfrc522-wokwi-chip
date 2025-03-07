@@ -1,0 +1,6 @@
+/.vscode
+tests/rust/.embuild
+tests/rust/target
+tests/rust/Cargo.lock
+tests/cpp/build/
+custom-chip/dist/
